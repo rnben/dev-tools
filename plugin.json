@@ -1,0 +1,15 @@
+{
+    "pluginName": "加解密工具",
+    "logo": "logo.png",
+    "preload": "preload.js",
+    "features": [{
+      "code": "aes-cbc",
+      "explain": "AES-CBC 加解密工具",
+      "cmds": ["AES", "加密", "解密", "aes-cbc"]
+    },
+    {
+      "code": "md5",
+      "explain": "MD5 加密工具",
+      "cmds": ["MD5", "md5", "哈希"]
+    }]
+  }
